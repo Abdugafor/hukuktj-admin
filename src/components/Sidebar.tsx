@@ -15,9 +15,9 @@ export default function Sidebar() {
   const location = useLocation();
 
   const menuItems = [
-    { text: 'Аналитика', icon: <HomeIcon />, path: '/' },
-    { text: 'Парвандахо', icon: <GavelIcon />, path: '/laws' },
-    { text: 'Адвакатхо', icon: <PeopleIcon />, path: '/lawyers' },
+    { text: 'Аналитика', icon: <HomeIcon />, path: '/admin' },
+    { text: 'Парвандахо', icon: <GavelIcon />, path: 'laws' },
+    { text: 'Адвакатхо', icon: <PeopleIcon />, path: 'lawyers' },
   ];
 
   return (

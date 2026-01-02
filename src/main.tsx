@@ -11,11 +11,11 @@ import LawyerPanel from "./components/lawyer-panel/LawyerPanel";
 
 const router = createBrowserRouter([
   {
-    path: "/auth",
+    path: "/admin/auth",
     element: <Auth />,
   },
   {
-    path: "/",
+    path: "/admin",
     element: <App />,
     children: [
       { index: true, element: <RequireAuth><Analytics /></RequireAuth> },
