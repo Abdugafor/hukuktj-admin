@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.embed-tool__caption {
+    display: none;
+}
+
+@media (min-width: 651px) {
+  .ce-block__content, .ce-toolbar__content {
+    max-width: calc(100% - 120px) !important;
+    margin: 0 60px;
+  }
+}
+
+.cdx-block {
+  max-width: 100% !important;
+}
